@@ -1,0 +1,27 @@
+*{
+font-family : roboto;
+margin : 5px 5px 5px 5px;
+padding: 5px 5px 5px 5px;
+}
+#coolname
+{
+    background-color: blue;
+}
+a
+{
+    text-decoration: none;
+    color: red;
+    margin-right: 15px;
+}
+th
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: aqua;
+    color: green;
+    width: fit-content;
+}
+tr:nth-child(odd)
+{
+    background-color: blueviolet;
+}
