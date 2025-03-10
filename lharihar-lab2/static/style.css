@@ -25,3 +25,15 @@ tr:nth-child(odd)
 {
     background-color: blueviolet;
 }
+form
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#submitbutton
+{
+    border-radius: 100%;
+    background-color: green;
+    border: none;
+}
