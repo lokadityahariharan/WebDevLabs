@@ -40,23 +40,23 @@ function greetings()
 {
     d = new Date
     h = d.getHours()
-    if(window.location.href.indexOf("index.html") != -1)
+    if(h<12){
+        document.getElementById("Greeting").innerHTML = "Good Morning, I am Lok"  
+        }
+    else if(h<18){
+        document.getElementById("Greeting").innerHTML = "Good Afternoon, I am Lok"
+        }
+    else if(h<20)
     {
-        if(h<12){
-            document.getElementById("Greeting").innerHTML = "Good Morning, I am Lok"  
-            }
-        else if(h<18){
-            document.getElementById("Greeting").innerHTML = "Good Afternoon, I am Lok"
-            }
-        else if(h<20)
-        {
-            document.getElementById("Greeting").innerHTML = "Good Evening, I am Lok"
-        }
-        else
-        {
-            document.getElementById("Greeting").innerHTML = "Good Night, I am Lok"
-        }
+        document.getElementById("Greeting").innerHTML = "Good Evening, I am Lok"
+    }
+    else
+    {
+        document.getElementById("Greeting").innerHTML = "Good Night, I am Lok"
     }
     
 }
-greetings()
+if(window.location.href.indexOf("index.html") != -1)
+{
+    greetings()
+}
