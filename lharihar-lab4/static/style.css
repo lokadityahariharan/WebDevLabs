@@ -1,0 +1,44 @@
+*{
+font-family : roboto;
+margin : 5px 5px 5px 5px;
+padding: 5px 5px 5px 5px;
+}
+#coolname
+{
+    background-color: turquoise;
+}
+a
+{
+    text-decoration: none;
+    color: red;
+    margin-right: 15px;
+}
+th
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: aqua;
+    color: green;
+    width: fit-content;
+}
+tr:nth-child(odd)
+{
+    background-color: grey;
+}
+form
+{
+    display: block;
+    margin: auto; 
+    text-align: center;  
+
+}
+#submitbutton
+{
+    border-radius: 100%;
+    background-color: green;
+    border: none;
+}
+#favList
+{
+    display: none;
+}
